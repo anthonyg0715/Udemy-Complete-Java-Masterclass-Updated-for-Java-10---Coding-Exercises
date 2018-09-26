@@ -18,8 +18,8 @@ public class MegaBytesConverter {
         if(kiloBytes < 0){
             System.out.println("Invalid Value");
         }else{
-            int result = kiloBytes / 1024;
-            int finalResult = kiloBytes % 1024;
+            int result = kiloBytes / 1024;//this gives us the actual conversion from kilo to mega
+            int finalResult = kiloBytes % 1024;//this gives us the remaining kilobytes after converting
             System.out.println(kiloBytes + " KB = " + result + " MB " + "and " + finalResult + " KB");
         }
 

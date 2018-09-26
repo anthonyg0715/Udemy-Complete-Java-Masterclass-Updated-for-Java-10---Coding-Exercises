@@ -9,7 +9,7 @@ public class MegaBytesConverter {
     //It needs to print in the format "XXKB = YYMB and ZZKB". Where XX represents the original kilobytes, YY represents
     //the calculated megabytes, and ZZ represents the remaining kilobytes.
     //Hints: Use the remainder operator to get the remaining kilobytes. 1mb = 1024kb.
-    //First check if kilobytes is lees than 0 and if it is then print invalid value.
+    //First check if kilobytes is less than 0 and if it is then print invalid value.
     public static void main(String[] args) {
         printMegaBytesAndKiloBytes(1024);
     }

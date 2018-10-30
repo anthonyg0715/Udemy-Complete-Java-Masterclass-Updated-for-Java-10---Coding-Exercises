@@ -1,0 +1,2 @@
+Implementing an old game from back in the days called Colossal Cave Adventure which was just a text based type game
+given only North, South, East, and West of places to go. Each direction would only have a certain number of exits.
